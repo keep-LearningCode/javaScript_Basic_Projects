@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full height of viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.container {
+    align-items: center;
+    text-align: center; /* Center align text within container */
+}
+#clock{
+    display:flex;
+    text-align: center;
+    background-color: darkseagreen;
+    color: black;
+    font-size: 24px; /* Example font size */
+    border: 1px solid #ccc; /* Example border for visibility */
+    border-radius: 5px;
+    margin: 10px;
+    height:35px;
+    width: 125px;
+}
